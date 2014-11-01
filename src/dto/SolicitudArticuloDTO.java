@@ -1,9 +1,10 @@
 package dto;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class SolicitudArticuloDTO {
+public class SolicitudArticuloDTO implements Serializable{
 	
 	private int idSolicitud;
 	private String estadoSolicitud;

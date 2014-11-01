@@ -1,6 +1,8 @@
 package dto;
 
-public class ArticuloDTO {
+import java.io.Serializable;
+
+public class ArticuloDTO implements Serializable{
 	
 	private int idArticulo;
 	private String descripcion;

@@ -1,7 +1,9 @@
 package dto;
 
+import java.io.Serializable;
 
-public class PortalDTO {
+
+public class PortalDTO implements Serializable{
 
 	private int idPortal;
 	private String descripcion;
