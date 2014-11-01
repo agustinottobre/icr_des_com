@@ -1,6 +1,8 @@
 package dto;
 
-public class ItemSolicitudArticuloDTO {
+import java.io.Serializable;
+
+public class ItemSolicitudArticuloDTO implements Serializable {
 
 	private int idItemSA;
 	private ArticuloDTO articulo;
