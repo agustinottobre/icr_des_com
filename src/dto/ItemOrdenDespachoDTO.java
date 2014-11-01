@@ -1,9 +1,11 @@
 package dto;
 
+import java.io.Serializable;
 
 
 
-public class ItemOrdenDespachoDTO {
+
+public class ItemOrdenDespachoDTO implements Serializable{
 
 		private int idItemOD;
 		private ArticuloDTO articulo;

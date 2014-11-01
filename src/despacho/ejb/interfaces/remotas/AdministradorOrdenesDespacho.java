@@ -7,8 +7,7 @@ import dto.OrdenDespachoDTO;
 @Remote
 public interface AdministradorOrdenesDespacho {
 	
-	public OrdenDespachoDTO altaOrdenDespacho (String codigo_despacho, String codigo_venta, String id_portal, 
-			String id_monitoreo, List<String[][]> items);
+	public OrdenDespachoDTO altaOrdenDespacho (OrdenDespachoDTO ordenDespachoDTO);
 	
 	//public buscarOrdenDespacho (String idOrdenDespacho);
 	
