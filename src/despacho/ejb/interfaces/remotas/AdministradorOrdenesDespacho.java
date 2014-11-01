@@ -7,8 +7,9 @@ import javax.ejb.Remote;
 @Remote
 public interface AdministradorOrdenesDespacho {
 	
-	public String cargarOrdenDespacho (String codigo_despacho, String codigo_venta, String id_portal, 
+	public String altaOrdenDespacho (String codigo_despacho, String codigo_venta, String id_portal, 
 			String id_monitoreo, List<String[][]> items);
 	
-
+	//public buscarOrdenDespacho (String idOrdenDespacho);
+	
 }
