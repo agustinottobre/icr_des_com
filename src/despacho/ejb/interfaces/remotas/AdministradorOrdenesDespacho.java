@@ -9,6 +9,7 @@ public interface AdministradorOrdenesDespacho {
 	
 	public OrdenDespachoDTO altaOrdenDespacho (OrdenDespachoDTO ordenDespachoDTO);
 	
-	//public buscarOrdenDespacho (String idOrdenDespacho);
+	public OrdenDespachoDTO buscarOrdenDespacho (String idOrdenDespacho);
+	
 	
 }
