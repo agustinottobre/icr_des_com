@@ -8,6 +8,7 @@ public class ArticuloDTO implements Serializable{
 	private String descripcion;
 	private String marca;
 	private String modelo;
+	private int idDeposito;
 	public int getIdArticulo() {
 		return idArticulo;
 	}
@@ -31,6 +32,12 @@ public class ArticuloDTO implements Serializable{
 	}
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
+	}
+	public int getIdDeposito() {
+		return idDeposito;
+	}
+	public void setIdDeposito(int idDeposito) {
+		this.idDeposito = idDeposito;
 	}
 	
 }
