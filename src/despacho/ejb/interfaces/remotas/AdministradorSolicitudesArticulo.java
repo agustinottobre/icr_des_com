@@ -3,12 +3,14 @@ package despacho.ejb.interfaces.remotas;
 import javax.ejb.Remote;
 
 import dto.ArticuloDTO;
+import dto.OrdenDespachoDTO;
 import dto.SolicitudArticuloDTO;
 
 @Remote
 public interface AdministradorSolicitudesArticulo {
 
-	public long obtenerCantidadSolicitudesArticulo();
+	public SolicitudArticuloDTO altaSolicitudArticulo (SolicitudArticuloDTO solicitudArticuloDTO);
 	
-	public SolicitudArticuloDTO nuevaSolicitud(ArticuloDTO articulo, int cantidad); 
+	public SolicitudArticuloDTO buscarSolicitudArticulo (String idSolicitudArticulo);
+	
 }

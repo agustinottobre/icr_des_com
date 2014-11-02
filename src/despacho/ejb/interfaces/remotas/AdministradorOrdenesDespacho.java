@@ -8,9 +8,8 @@ import dto.OrdenDespachoDTO;
 public interface AdministradorOrdenesDespacho {
 	
 	public OrdenDespachoDTO altaOrdenDespacho (OrdenDespachoDTO ordenDespachoDTO);
+							
+	public OrdenDespachoDTO buscarOrdenDespacho (String idOrdenDespacho);
 	
 	public String notificarEntregaDespacho (int idOrdenDespacho);
-	
-	//public buscarOrdenDespacho (String idOrdenDespacho);
-	
 }
