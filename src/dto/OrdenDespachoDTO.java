@@ -11,6 +11,7 @@ public class OrdenDespachoDTO implements Serializable{
 	private String estadoOrden;
 	private String fechaRecepcion;
 	private List<ItemOrdenDespachoDTO> items;
+	
 	public int getIdOrdenDespacho() {
 		return idOrdenDespacho;
 	}
