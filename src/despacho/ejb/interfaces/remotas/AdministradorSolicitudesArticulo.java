@@ -13,4 +13,5 @@ public interface AdministradorSolicitudesArticulo {
 	
 	public SolicitudArticuloDTO buscarSolicitudArticulo (String idSolicitudArticulo);
 	
+	
 }
