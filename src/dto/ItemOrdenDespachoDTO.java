@@ -8,9 +8,11 @@ import java.io.Serializable;
 public class ItemOrdenDespachoDTO implements Serializable{
 
 		private int idItemOD;
+		private int idOrdenDespacho;
 		private ArticuloDTO articulo;
 		private int cantidad;
 		private String estadoItems;
+		
 		public int getIdItemOD() {
 			return idItemOD;
 		}
@@ -34,6 +36,12 @@ public class ItemOrdenDespachoDTO implements Serializable{
 		}
 		public void setEstadoItems(String estadoItems) {
 			this.estadoItems = estadoItems;
+		}
+		public int getIdOrdenDespacho() {
+			return idOrdenDespacho;
+		}
+		public void setIdOrdenDespacho(int idOrdenDespacho) {
+			this.idOrdenDespacho = idOrdenDespacho;
 		}
 		
 }
