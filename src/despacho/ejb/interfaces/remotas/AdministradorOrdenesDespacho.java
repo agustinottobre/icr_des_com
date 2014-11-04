@@ -10,9 +10,9 @@ import dto.SolicitudArticuloDTO;
 @Remote
 public interface AdministradorOrdenesDespacho {
 	
-	public OrdenDespachoDTO altaOrdenDespacho (OrdenDespachoDTO ordenDespachoDTO);
+	public boolean altaOrdenDespacho (OrdenDespachoDTO ordenDespachoDTO);
 							
-	public OrdenDespachoDTO buscarOrdenDespacho (int idOrdenDespacho);
+//	public OrdenDespachoDTO buscarOrdenDespacho (int idOrdenDespacho);
 	
 	public List<SolicitudArticuloDTO> generarSolicitudArticuloPorDeposito (OrdenDespachoDTO ordenDespachoDTO);
 	
