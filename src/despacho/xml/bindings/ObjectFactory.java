@@ -43,5 +43,29 @@ public class ObjectFactory {
     public Articulo createArticulo() {
         return new Articulo();
     }
+    
+    /**
+     * Create an instance of {@link SolicitudArticulos }
+     * 
+     */
+    public SolicitudArticulos createSolicitudArticulos() {
+        return new SolicitudArticulos();
+    }
+
+    /**
+     * Create an instance of {@link SolicitudArticulos.Items }
+     * 
+     */
+    public SolicitudArticulos.Items createSolicitudArticulosItems() {
+        return new SolicitudArticulos.Items();
+    }
+
+    /**
+     * Create an instance of {@link SolicitudArticulos.Items.Articulo }
+     * 
+     */
+    public SolicitudArticulos.Items.Articulo createSolicitudArticulosItemsArticulo() {
+        return new SolicitudArticulos.Items.Articulo();
+    }
 
 }
