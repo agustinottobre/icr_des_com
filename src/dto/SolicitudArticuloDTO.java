@@ -8,7 +8,7 @@ public class SolicitudArticuloDTO implements Serializable{
 	
 	private int idSolicitud;
 	private String estadoSolicitud;
-	private int idDepostio;
+	private int idDeposito;
 	private List<ItemSolicitudArticuloDTO> items;
 	public int getIdSolicitud() {
 		return idSolicitud;
@@ -22,11 +22,11 @@ public class SolicitudArticuloDTO implements Serializable{
 	public void setEstadoSolicitud(String estadoSolicitud) {
 		this.estadoSolicitud = estadoSolicitud;
 	}
-	public int getIdDepostio() {
-		return idDepostio;
+	public int getidDeposito() {
+		return idDeposito;
 	}
-	public void setIdDepostio(int idDepostio) {
-		this.idDepostio = idDepostio;
+	public void setidDeposito(int idDeposito) {
+		this.idDeposito = idDeposito;
 	}
 	public List<ItemSolicitudArticuloDTO> getItems() {
 		return items;
