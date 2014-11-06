@@ -10,8 +10,6 @@ import dto.ArticuloDTO;
 @Remote
 public interface AdministradorArticulos {
 	
-	public String testEJB();
-	
 	//Devolver null si no pudo guardar, sino devuelve el mismo ArticuloDTO
 	//Si existe hacer un update, sino existe hacer el alta
 	public ArticuloDTO altaArticulo(ArticuloDTO articulo);
