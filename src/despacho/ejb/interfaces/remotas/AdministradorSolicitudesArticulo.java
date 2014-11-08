@@ -1,5 +1,7 @@
 package despacho.ejb.interfaces.remotas;
 
+import java.util.List;
+
 import javax.ejb.Remote;
 
 import despacho.rest.bindings.ArticulosRecibidos;
@@ -13,6 +15,12 @@ public interface AdministradorSolicitudesArticulo {
 	public SolicitudArticuloDTO altaSolicitudArticulo (SolicitudArticuloDTO solicitudArticuloDTO);
 	
 	// public SolicitudArticuloDTO buscarSolicitudArticulo (String idSolicitudArticulo);
+
 	public boolean registrarRecepcionDeStock(ArticulosRecibidos articulosRecibidos);
+
+	
+	public List<SolicitudArticuloDTO> listar();
+	
+
 	
 }
