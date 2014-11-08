@@ -12,10 +12,10 @@ public interface AdministradorArticulos {
 	
 	//Devolver null si no pudo guardar, sino devuelve el mismo ArticuloDTO
 	//Si existe hacer un update, sino existe hacer el alta
-	public ArticuloDTO altaArticulo(ArticuloDTO articulo);
+	public boolean altaArticulo(ArticuloDTO articulo);
 	
 	//Buscar Articulo
-	public ArticuloDTO BuscarArticulo(int idArticulo);
+//	public ArticuloDTO BuscarArticulo(int idArticulo);
 	
 	//Actualizar Articulo
 	public ArticuloDTO actualizarArticulo(ArticuloDTO articulo);
