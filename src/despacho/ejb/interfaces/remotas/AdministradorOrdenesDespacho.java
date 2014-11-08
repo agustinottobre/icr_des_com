@@ -14,7 +14,7 @@ public interface AdministradorOrdenesDespacho {
 							
 //	public OrdenDespachoDTO buscarOrdenDespacho (int idOrdenDespacho);
 	
-	public List<SolicitudArticuloDTO> generarSolicitudArticuloPorDeposito (OrdenDespachoDTO ordenDespachoDTO);
+	public List<SolicitudArticuloDTO> procesarSolicitudDespacho (OrdenDespachoDTO ordenDespachoDTO);
 	
 	public String notificarEntregaDespacho (int idOrdenDespacho);
 	

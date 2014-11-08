@@ -9,6 +9,8 @@ public class SolicitudArticuloDTO implements Serializable{
 	private int idSolicitud;
 	private String estadoSolicitud;
 	private int idDeposito;
+	private int idOrdenDespacho;
+	
 	private List<ItemSolicitudArticuloDTO> items;
 	public int getIdSolicitud() {
 		return idSolicitud;
@@ -33,6 +35,13 @@ public class SolicitudArticuloDTO implements Serializable{
 	}
 	public void setItems(List<ItemSolicitudArticuloDTO> items) {
 		this.items = items;
+	}
+
+	public int getIdOrdenDespacho() {
+		return idOrdenDespacho;
+	}
+	public void setIdOrdenDespacho(int idOrdenDespacho) {
+		this.idOrdenDespacho = idOrdenDespacho;
 	}
 
 }
