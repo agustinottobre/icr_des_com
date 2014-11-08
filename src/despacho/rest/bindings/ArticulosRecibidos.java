@@ -1,12 +1,14 @@
 package despacho.rest.bindings;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import javax.annotation.Generated;
 
-public class ArticulosRecibidos {
+public class ArticulosRecibidos implements Serializable {
 
 /**
 * 
