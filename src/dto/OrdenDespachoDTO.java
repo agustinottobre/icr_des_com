@@ -11,7 +11,8 @@ public class OrdenDespachoDTO implements Serializable{
 	private OrdenVentaDTO ordenVenta;
 	private String estadoOrden;
 	private String fechaRecepcion;
-	private List<ItemOrdenDespachoDTO> items;
+//	private List<ItemOrdenDespachoDTO> items;
+	private Set<ItemOrdenDespachoDTO> items;
 	
 	public int getIdOrdenDespacho() {
 		return idOrdenDespacho;
@@ -37,10 +38,10 @@ public class OrdenDespachoDTO implements Serializable{
 	public void setFechaRecepcion(String fechaRecepcion) {
 		this.fechaRecepcion = fechaRecepcion;
 	}
-	public List<ItemOrdenDespachoDTO> getItems() {
+	public Set<ItemOrdenDespachoDTO> getItems() {
 		return items;
 	}
-	public void setItems(List<ItemOrdenDespachoDTO> items) {
+	public void setItems(Set<ItemOrdenDespachoDTO> items) {
 		this.items = items;
 	}
 	
