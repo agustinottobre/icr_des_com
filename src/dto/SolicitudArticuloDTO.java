@@ -3,6 +3,7 @@ package dto;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 public class SolicitudArticuloDTO implements Serializable{
 	
@@ -11,7 +12,7 @@ public class SolicitudArticuloDTO implements Serializable{
 	private int idDeposito;
 	private int idOrdenDespacho;
 	
-	private List<ItemSolicitudArticuloDTO> items;
+	private Set<ItemSolicitudArticuloDTO> items;
 	public int getIdSolicitud() {
 		return idSolicitud;
 	}
@@ -30,10 +31,10 @@ public class SolicitudArticuloDTO implements Serializable{
 	public void setidDeposito(int idDeposito) {
 		this.idDeposito = idDeposito;
 	}
-	public List<ItemSolicitudArticuloDTO> getItems() {
+	public Set<ItemSolicitudArticuloDTO> getItems() {
 		return items;
 	}
-	public void setItems(List<ItemSolicitudArticuloDTO> items) {
+	public void setItems(Set<ItemSolicitudArticuloDTO> items) {
 		this.items = items;
 	}
 
