@@ -11,7 +11,7 @@ public interface AdministradorSolicitudesArticulo {
 
 	public SolicitudArticuloDTO altaSolicitudArticulo (SolicitudArticuloDTO solicitudArticuloDTO);
 	
-	public SolicitudArticuloDTO buscarSolicitudArticulo (String idSolicitudArticulo);
+	// public SolicitudArticuloDTO buscarSolicitudArticulo (String idSolicitudArticulo);
 	
 	
 }
