@@ -44,5 +44,6 @@ public class OrdenDespachoDTO implements Serializable{
 	public void setItems(Set<ItemOrdenDespachoDTO> items) {
 		this.items = items;
 	}
+
 	
 }
