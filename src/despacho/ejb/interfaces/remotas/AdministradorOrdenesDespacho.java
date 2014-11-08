@@ -18,4 +18,6 @@ public interface AdministradorOrdenesDespacho {
 	
 	public String notificarEntregaDespacho (int idOrdenDespacho);
 	
+	public List<OrdenDespachoDTO> listar();
+	
 }

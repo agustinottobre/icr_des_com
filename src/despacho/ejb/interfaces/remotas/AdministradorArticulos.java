@@ -20,5 +20,9 @@ public interface AdministradorArticulos {
 	//Actualizar Articulo
 	public ArticuloDTO actualizarArticulo(ArticuloDTO articulo);
 	
-	public List<ArticuloDTO> ArticulosPorDeposito(int idDeposito);
+	public ArticuloDTO listarArticulo(int idArticulo);
+	
+	public List<ArticuloDTO> articulosPorDeposito (int idDepo);
+	
+	public List<ArticuloDTO> listar();
 }
