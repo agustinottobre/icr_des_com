@@ -15,25 +15,25 @@ import javax.xml.ws.Service;
  * 
  */
 @WebServiceClient(name = "ServidorEstadoEntregaBeanService", 
-                  wsdlLocation = "file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl",
+                  //wsdlLocation = "file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl",
                   targetNamespace = "http://portalEstadoEntrega/") 
 public class ServidorEstadoEntregaBeanService extends Service {
 
-    public final static URL WSDL_LOCATION;
+    public static URL WSDL_LOCATION;
 
     public final static QName SERVICE = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanService");
     public final static QName ServidorEstadoEntregaBeanPort = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanPort");
-    static {
-        URL url = null;
-        try {
-            url = new URL("file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl");
-        } catch (MalformedURLException e) {
-            java.util.logging.Logger.getLogger(ServidorEstadoEntregaBeanService.class.getName())
-                .log(java.util.logging.Level.INFO, 
-                     "Can not initialize the default wsdl from {0}", "file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl");
-        }
-        WSDL_LOCATION = url;
-    }
+//    static {
+//        URL url = null;
+//        try {
+//            url = new URL("file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl");
+//        } catch (MalformedURLException e) {
+//            java.util.logging.Logger.getLogger(ServidorEstadoEntregaBeanService.class.getName())
+//                .log(java.util.logging.Level.INFO, 
+//                     "Can not initialize the default wsdl from {0}", "file:/home/neco/dev/wjb/icr_des_rest/wsdl/estadoEntregaDespachoPortalWS.wsdl");
+//        }
+//        WSDL_LOCATION = url;
+//    }
 
     public ServidorEstadoEntregaBeanService(URL wsdlLocation) {
         super(wsdlLocation, SERVICE);
