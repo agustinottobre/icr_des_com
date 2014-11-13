@@ -16,7 +16,7 @@ public interface AdministradorOrdenesDespacho {
 	
 	public List<SolicitudArticuloDTO> procesarSolicitudDespacho (OrdenDespachoDTO ordenDespachoDTO);
 	
-	public String notificarEntregaDespacho (OrdenDespachoDTO ordenDespachoDTO);
+//	public String notificarEntregaDespacho (OrdenDespachoDTO ordenDespachoDTO);
 	
 	public List<OrdenDespachoDTO> listarOrdenesDespacho(String estado);
 	
