@@ -22,8 +22,8 @@ public class ServidorEstadoEntregaBeanService extends Service {
     public static URL WSDL_LOCATION;
 
     public final static QName SERVICE = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanService");
-//    public final static QName ServidorEstadoEntregaBeanPort = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanPort");+
-    public final static QName ServidorEstadoEntregaBeanPort = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanImplPort");
+    public final static QName ServidorEstadoEntregaBeanPort = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanPort");
+//    public final static QName ServidorEstadoEntregaBeanPort = new QName("http://portalEstadoEntrega/", "ServidorEstadoEntregaBeanImplPort");
 //    static {
 //        URL url = null;
 //        try {
